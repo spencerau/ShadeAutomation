@@ -1,0 +1,41 @@
+# General
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+env/
+venv/
+*.egg-info/
+
+# C++
+*.o
+*.a
+*.out
+*.so
+*.exe
+*.dll
+*.dSYM/
+build/
+cmake-build-debug/
+
+# Rust
+target/
+Cargo.lock
+
+# Raspberry Pi
+*.elf
+*.bin
+*.hex
+*.img
+*.dtb
+*.dtbo
+*.map
+*.pydevproject
+.idea/
+.vscode/
